@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" onclick="action()">
+
+    <script>
+        document .write("こんにちは"); //「こんにちは」を出力しています。
+        // document .write("こんばんは");
+
+        // document.bgColor="red";
+        // alert("警告です。")
+        console.log("こんにちは");
+        document.write("<br>");
+
+        //データ型
+        var a = "Hello World";
+        document.write(a);
+
+
+        var b = typeof a ;
+        document.write(b);
+
+        
+        var a = ["おはよう","こんにちは","こんばんは"];
+        document.write(a[0]);
+        document.write(a[1]);
+
+        // var numA =a .length;
+        // document.write(numA);
+        // S
+        document.write("<br>");
+
+        var name = "山田楓歌";
+        var str = "こんにちは"+ name + "さん";
+        document.write(str);
+
+        // if文
+        var a = 1;
+        if( a > 2 )
+        {
+            document.write("aは2より大きい");
+        }
+        else
+        {
+            document.write("aは2より小さい");
+        }
+
+
+        //else if文
+        var a = 5;
+        if ( a < 0){
+            document.write("aの値は負です");
+        }
+        else if( a=== 0){
+            document.write("aの値はゼロです");
+        }
+        else if( a>0){
+            document.write("aの値は正です");
+        }
+        else{
+            document.write("aは数値ではありません");
+        }
+
+            document.write("<br>");
+        for( var i = 0; i < 3; i++)
+        {
+            document.write(i);
+        }
+        for( var i = 0; i < 7; i++){
+            document.write(i);
+        }
+
+        for(var i =3; i<7; i++){
+            document.write(i);
+        }
+
+        //配列aに11，22，33を代入して、for文を使ってすべて取り出して下さい。
+        var a =[11,22,33,44];
+        for(var i =0; i<a.length; i++){
+            document.write(a[i]);
+         }
+
+         //for文を使って３，２，１，０と下るように数値を出力してください。
+         for(var i =3; i>=0; i--){
+             document.write(i)
+         }
+
+         
+         var f1 = Math.floor(10.4);
+         var f2 = Math.floor(10.5);
+         console.log("floor:"+f1);
+         console.log("floor:"+f2);
+
+        function action(){
+            document.write("クリックされました。");
+            document.bgColor="red";
+        }
+        // action();
+
+        function rect(width,height){
+            var ans = width * height;
+            console.log(ans);
+        }
+        rect(10,15);
+        
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
